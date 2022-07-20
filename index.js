@@ -21,10 +21,10 @@ const conexion = mysql.createConnection({
 //Conectamos la DB
 
 const conectar = (
-    conexion.connect((error) =>{
-        if(error) throw errorMonitor;
+conexion.connect((error) =>{
+      //  if(error) throw errorMonitor;
         console.log('Base de Datos Conectada!!');
-    })
+})
 );
 
 //Configuracion de Middlewares
