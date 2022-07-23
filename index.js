@@ -74,7 +74,8 @@ app.post('/contacto', (req,res) =>{
         console.log(apellido);
         console.log(correo);
         console.log(consulta);
-
+    res.send("¡Gracias por contactarnos! Tus datos han sido recibidos correctamente")
+    
     //otra forma es creando funciones
 
             //conectar()
